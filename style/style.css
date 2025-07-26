@@ -61,6 +61,12 @@ body {
 .nav-link:hover::after {
     width: 100%;
 }
+.gradient-text {
+    background: linear-gradient(90deg, #c7d9f3, #6ef146);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 
 #home {
     background: linear-gradient(-45deg, var(--darker), var(--dark), var(--primary), var(--accent));
